@@ -38,6 +38,7 @@ Most of the Apache project have same build environment so you can use the same c
         
 ![](img/generatedRPMs.png)
 <br>
+
 ![](img/codebase.png)
 <br>
 
@@ -50,7 +51,7 @@ Most of the Apache project have same build environment so you can use the same c
 <br>
 
 
-      4) Basic docker commands to stop/start/remove the docker container
+     4) Basic docker commands to stop/start/remove the docker container
       
 ![](img/dockercommands.png)
  <br>
