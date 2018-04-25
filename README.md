@@ -15,7 +15,7 @@ Most of the Apache project have same build environment so you can use the same c
        
        ./setupDocker.sh
        
-       (img/setupDocker.png)
+(img/setupDocker.png)
        
      
      2) Run the ./build.sh to setup Docker Container and build the Ambari Code. Build takes more than an hour to download and build the
