@@ -34,8 +34,8 @@ Most of the Apache project have same build environment so you can use the same c
 ![](img/build_out.png)
         
         
-        After completing the build the Ambari rpm will be availabe under generatedRPM folder or in the docker container path /opt/Ambari
-        /build/apache-ambari-2.6.1-src 
+        After completing the build the Ambari rpm will be availabe under generatedRPM folder or in the docker container 
+        path /opt/Ambari/build/apache-ambari-2.6.1-src 
         
         The password for login to docker container is "passw0rd"
         
@@ -51,11 +51,14 @@ Most of the Apache project have same build environment so you can use the same c
         docker container.
     
  ![](img/blankspace.png)
-      
+<br>
+<br>
+<br>    
       4) Basic docker commands to stop/start/remove the docker container
       
 ![](img/dockercommands.png)
-        
+ <br>
+<br>       
         
         
 ## Author
