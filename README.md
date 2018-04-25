@@ -19,11 +19,8 @@ Most of the Apache project have same build environment so you can use the same c
        
 ![](img/setupDocker.png)
 <br>
-<br>
-<br>
-     
-     
-     
+
+
      2) Run the ./build.sh to setup Docker Container and build the Ambari Code. Build takes more than an hour to 
         download and build the code.
      
@@ -43,17 +40,16 @@ Most of the Apache project have same build environment so you can use the same c
 <br>
 ![](img/codebase.png)
 <br>
-<br>
-<br>
-        
+
+  
      3) If the user wants to build the modified the code, the user can modify the files under /opt/Ambari/build/
         apache-ambari-2.6.1-src and run the /opt/Ambari/setupAmbari.sh to build the Amabri code. For building 
         the LogSearch, run /opt/Ambari/setupLogSearch.sh from the docker container.
     
  ![](img/blankspace.png)
 <br>
-<br>
-<br>    
+
+
       4) Basic docker commands to stop/start/remove the docker container
       
 ![](img/dockercommands.png)
