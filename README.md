@@ -12,7 +12,6 @@ Most of the Apache project have same build environment so you can use the same c
 ## Usage
 
 <br>
-<br>
 
     1) Run the ./setupDocker.sh script to setup Docker in Linux
        
