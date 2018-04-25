@@ -18,14 +18,16 @@ Most of the Apache project have same build environment so you can use the same c
 ![](img/setupDocker.png)
        
      
-     2) Run the ./build.sh to setup Docker Container and build the Ambari Code. Build takes more than an hour to download and build the
-        code.
+     
+     
+     2) Run the ./build.sh to setup Docker Container and build the Ambari Code. Build takes more than an hour to 
+        download and build the code.
      
         ./build.sh
         
 ![](img/build.png)
         
-        **img/build_out.png**
+![](img/build_out.png)
         
         
         After completing the build the Ambari rpm will be availabe under generatedRPM folder or in the docker container path /opt/Ambari
@@ -33,18 +35,24 @@ Most of the Apache project have same build environment so you can use the same c
         
         The password for login to docker container is "passw0rd"
         
-        **img/generatedRPMs.png**
-        **img/codebase.png**
+![](img/generatedRPMs.png)
+
+![](img/codebase.png)
+
+
+
         
-        
-     3) If the user wants to build the modified the code, the user can modify the files under /opt/Ambari/build/apache-ambari-2.6.1-src and
+     **3)** If the user wants to build the modified the code, the user can modify the files under /opt/Ambari/build/apache-ambari-2.6.1-src and
         run the /opt/Ambari/setupAmbari.sh to build the Amabri code. For building the LogSearch, run /opt/Ambari/setupLogSearch.sh from the
         docker container.
-        
+     
+    
       
       4) Basic docker commands to stop/start/remove the docker container
       
-         **img/dockercommands.png**
+![](img/dockercommands.png)
+        
+        
         
 ## Author
 
