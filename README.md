@@ -30,7 +30,7 @@ Most of the Apache project have same build environment so you can use the same c
         ./build.sh
         
 ![](img/build.png)
-        
+<br>        
 ![](img/build_out.png)
         
         
@@ -40,15 +40,15 @@ Most of the Apache project have same build environment so you can use the same c
         The password for login to docker container is "passw0rd"
         
 ![](img/generatedRPMs.png)
-
+<br>
 ![](img/codebase.png)
-
-
-
+<br>
+<br>
+<br>
         
-     3) If the user wants to build the modified the code, the user can modify the files under /opt/Ambari/build/apache-ambari-2.6.1-src and
-        run the /opt/Ambari/setupAmbari.sh to build the Amabri code. For building the LogSearch, run /opt/Ambari/setupLogSearch.sh from the
-        docker container.
+     3) If the user wants to build the modified the code, the user can modify the files under /opt/Ambari/build/
+        apache-ambari-2.6.1-src and run the /opt/Ambari/setupAmbari.sh to build the Amabri code. For building 
+        the LogSearch, run /opt/Ambari/setupLogSearch.sh from the docker container.
     
  ![](img/blankspace.png)
 <br>
